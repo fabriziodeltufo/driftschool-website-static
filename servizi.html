@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="GalloDriftSchhol">
+  <meta name="keywords" content="drfit, car, school, auto, scuola, pilotare, guida sicura." />
+  <meta name="description" content="Danza con la tua auto. Impara la guida Drift in sicurezza.">
+  <title>DriftSchool</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="header clearfix">
+
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="image/logo.jpg">
+      </a>
+    </div>
+
+    <div class="header-hamburger">
+      <a href="">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="header-menu header-menu-open">
+
+      <ul class="header-menu-list">
+        <a href="index.html">
+          <li class="header-menu-item">Home</li>
+        </a>
+        <a href="servizi.html">
+          <li class="header-menu-item">Servizi</li>
+        </a>
+        <a href="contatti.html">
+          <li class="header-menu-item">Contatti</li>
+        </a>
+      </ul>
+
+    </div>
+
+  </header>
+
+  <section class="servizi">
+
+    <div class="servizi-title">
+      <h2>I NOSTRI SERVIZI.</h2>
+      <p>Il percorso completo verso il controllo totale di guida in sicurezza.</p>
+    </div>
+
+    <div class="servizi-area">
+
+      <div class="servizio">
+        <img src="image/servizio1.jpg">
+        <h2>DRIFT - TEORIA</h2>
+        <p>Corso Teorico</p>
+      </div>
+
+      <div class="servizio">
+        <img src="image/servizio2.jpg">
+        <h2>DRIFT - PRATICA L1</h2>
+        <p>Corso pratico con istruttore.</p>
+      </div>
+
+      <div class="servizio">
+        <img src="image/servizio3.jpg">
+        <h2>DRIFT - PRATICA L2</h2>
+        <p>Corso pratico senza instruttore.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="socials">
+    <ul class="socials-list">
+      <li class="socials-item"><a href="#">Facebook</a></li>
+      <li class="socials-item"><a href="#">Instagram</a></li>
+      <li class="socials-item"><a href="#">You Tube</a></li>
+      <li class="socials-item"><a href="#">Email</a></li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    <span>Copyright &copy; 2020 Drift School</span>
+  </div>
+
+  <div class="socket">
+    <span>Powered by : <a target="_blank" href="https://okayweb.co.uk">OkayWeb.co.uk</a></span>
+  </div>
+
+  <!-- header-menu-open -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $(".header-hamburger").click(function(e) {
+
+        $(".header-menu").toggleClass('header-menu-open');
+        e.preventDefault();
+
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../image/cover.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+/* HEADER */
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  padding: 0px;
+}
+
+.header-logo {
+  margin: auto 10px;
+  float: left;
+}
+
+.header-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-menu {
+  margin: auto 10px;
+  float: right;
+}
+
+.header-menu-item {
+  border: 1px solid black;
+  display: inline;
+  padding: 10px;
+}
+
+.header-menu-list a .header-menu-item:hover {
+  color: white;
+  background-color: black;
+}
+
+/* ONE SCROLL PAGE: INDEX.HTML */
+.cover {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 236px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.cover h1 {
+  border: 0px solid red;
+  font-size: 80px;
+}
+
+.cover p {
+  border: 0px solid red;
+  font-size: 40px;
+  margin-top: -50px;
+}
+
+.slider {
+  background-image: url("../image/cover2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-top: 250px;
+}
+
+.slider h2 {
+  font-size: 80px;
+  color: black;
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 90px
+}
+
+.slider p {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 50px;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  padding-right: 100px
+}
+
+.contatti {
+  background: #ddd;
+  width: 100%;
+  height: 750px;
+  margin: 0px;
+}
+
+.contatti-btn {
+  margin-top: 50px
+}
+
+.contatti-title, .servizi-title {
+  border: 0px solid blue;
+  text-align: center;
+  padding: 20px;
+}
+
+.contatti-title h2, .servizi-title h2 {
+  font-size: 50px;
+}
+
+.contatti-title p, .servizi-title p {
+  font-size: 25px;
+  margin-top: -30px;
+}
+
+.contatti-area {
+  width: 90%;
+  height: 500px;
+  margin: 0px auto;
+}
+
+.riferimenti {
+  border: 1px solid #fff;
+  float: left;
+  width: 50%;
+  height: 501px;
+}
+
+.rif {
+  width: 80%;
+  height: 100px;
+  background: #fff;
+  margin: 45px auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.rif p {
+  margin-top: -10px
+}
+
+.mapouter {
+  float: left;
+  position: relative;
+  text-align: right;
+  width: 640px;
+  height: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 640px;
+  height: 500px;
+}
+
+.socials {
+  border: 0px solid red;
+  background: #fff;
+  margin: 0px
+}
+
+.socials-list {
+  border: 0px solid green;
+  margin: 0px;
+  padding: 0px;
+  text-align: center
+}
+
+.socials-item {
+  border: 0px solid blue;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold
+}
+
+.socials-item a:hover {
+  color: red
+}
+
+.footer {
+  border: 0px solid red;
+  width: 100%;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 10px
+}
+
+.socket {
+  border: 0px solid red;
+  width: 100%;
+  text-align: center;
+  background: #ddd;
+  color: #000;
+  padding: 10px;
+  font-size: 12px
+}
+
+/* PAGE: SERVIZI  */
+.servizi {
+  border: 0px solid red;
+  background: #ddd;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.servizi-area {
+  display: flex;
+  justify-content: space-around;
+}
+
+.servizio {
+  background: white;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  text-align: center
+}
+
+.servizio img {
+  width: 100%
+}
+
+/*  ----------------------------------------------- */
+/*   ! tablet  */
+/*  ----------------------------------------------- */
+@media(max-width: 998px) {
+
+}
+  /*  ----------------------------------------------- */
+  /*   ! Smartphone  */
+  /*  ----------------------------------------------- */
+  @media(max-width: 767px) {
+
+          .header-hamburger {
+            float: right;
+            padding: 15px;
+          }
+
+          .header-hamburger span {
+            display: block;
+            background: black;
+            width: 30px;
+            height: 3px;
+            margin: 3px;
+          }
+
+          .header-menu {
+            display: none;
+          }
+
+          .header-menu-open {
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+          }
+
+          .header-menu-item {
+            display: block;
+            margin-bottom: 5px;
+          }
+
+          /* ONE SCROLL PAGE: COVER */
+          body, html {
+            background-image: url("../image/cover.jpg");
+            background-position: top;
+            background-size: contain;
+          }
+
+          .cover {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: -190px;
+          }
+
+          .cover h1 {
+            border: 0px solid red;
+            font-size: 40px;
+          }
+
+          .cover p {
+            border: 0px solid red;
+            font-size: 20px;
+            margin-top: -30px;
+          }
+
+          /* ONE SCROLL PAGE: SLIDER */
+          .slider {
+            background-image: url("../image/cover2.jpg");
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 600px;
+            margin-top: 90px;
+          }
+
+          .slider h2 {
+            font-size: 40px;
+            color: black;
+            text-align: right;
+            padding-top: 200px;
+            padding-right: 15px;
+            padding-bottom: 10px
+          }
+
+          .slider p {
+            background: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            padding: 30px;
+          }
+
+          /* ONE SCROLL PAGE: CONTATTACI */
+          .contatti {
+            background: #fff;
+            width: 100%;
+            height: 1200px;
+            margin-top: -160px;
+          }
+
+          .contatti-btn {
+            margin-top: 50px
+          }
+
+          .contatti-title h2, .servizi-title h2 {
+            font-size: 40px;
+          }
+
+          .contatti-title p, .servizi-title p {
+            font-size: 20px;
+            margin-top: -30px;
+            text-align: center;
+          }
+
+          .contatti-area {
+            width: 100%;
+            height: 500px;
+          }
+
+          .riferimenti {
+            border: 1px solid lightgrey;
+            width: 100%;
+            height: 500px;
+          }
+
+          .rif{
+            background: lightgrey;
+          }
+
+          .mapouter {
+            width: 100%;
+            height: 500px;
+            border: 2px solid white;
+          }
+
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 500px;
+          }
+
+          /* PAGE: SERVIZI  */
+          .servizi {
+            background: #ddd;
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            padding-bottom: 30px;
+          }
+
+          .servizi-area {
+            display: block;
+            width: 100%;
+          }
+
+          .servizio {
+            background: white;
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            text-align: center;
+            margin: 0px auto;
+            margin-bottom: 30px;
+          }
+
+          .servizio img {
+            width: 100%
+          }
+
+          .socials{
+            padding:0px;
+            width:100%;
+
+          }
+
+          .socials-list {
+            margin: 0px;
+            padding: 0px;
+            text-align: center
+          }
+
+          .socials-item {
+            border-bottom: 1px solid lightgrey;
+            display: block;
+            padding: 5px;
+            font-weight: bold;
+          }
+
+          .socials-item a:hover {
+            color: red
+          }
+
+  }
+
+  /* clearfix */
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }

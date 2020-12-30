@@ -1,0 +1,147 @@
+<!-- Drift School Prototype - Static Ver. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="GalloDriftSchhol">
+  <meta name="keywords" content="drfit, car, school, auto, scuola, pilotare, guida sicura." />
+  <meta name="description" content="Danza con la tua auto. Impara la guida Drift in sicurezza.">
+  <title>DriftSchool</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="header clearfix ">
+
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="image/logo.jpg">
+      </a>
+    </div>
+
+    <div class="header-hamburger">
+      <a href="">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="header-menu">
+
+      <ul class="header-menu-list">
+        <a href="index.html">
+          <li class="header-menu-item">Home</li>
+        </a>
+        <a href="servizi.html">
+          <li class="header-menu-item">Servizi</li>
+        </a>
+        <a href="contatti.html">
+          <li class="header-menu-item">Contatti</li>
+        </a>
+      </ul>
+
+    </div>
+
+  </header>
+
+  <section class="cover">
+
+    <div>
+      <h1>DRIFT SCHOOL</h1>
+      <p>Sei pronto a danzare con la tua auto ?</p>
+    </div>
+
+  </section>
+
+  <section class="slider">
+    <div>
+      <h2>DRIFT SKILLS</h2>
+      <p>Impara a gestire la tua auto in tutte le situazioni.</p>
+    </div>
+
+  </section>
+
+  <section class="contatti">
+
+    <div class="contatti-title">
+      <h2>CONTATTACI</h2>
+      <p>Fissa un appuntamento per una visita nel circuito.</p>
+    </div>
+
+
+    <div class="contatti-area">
+
+      <div class="riferimenti">
+
+        <div class="rif">
+          <h2>Numero Telefono</h2>
+          <p>+39 xxxx xxxxx xxxx</p>
+        </div>
+
+        <div class="rif">
+          <h2>Indirizzo Email</h2>
+          <p>email@domain.it</p>
+        </div>
+
+        <div class="rif">
+          <h2>Indirizzo Scuola</h2>
+          <p>Street, n.
+            Zipcode. City. Country</p>
+        </div>
+
+      </div>
+
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="640" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=circuito%20monza&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.embedgooglemap.net/1/"></a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="socials">
+    <ul class="socials-list">
+      <li class="socials-item"><a href="#">Facebook</a></li>
+      <li class="socials-item"><a href="#">Instagram</a></li>
+      <li class="socials-item"><a href="#">You Tube</a></li>
+      <li class="socials-item"><a href="#">Email</a></li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    <span>Copyright &copy; 2020 Drift School</span>
+  </div>
+
+  <div class="socket">
+    <span>Powered by : <a target="_blank" href="https://okayweb.co.uk">OkayWeb.co.uk</a></span>
+  </div>
+
+
+  <!-- header-menu-open -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $(".header-hamburger").click(function(e) {
+
+        $(".header-menu").toggleClass('header-menu-open');
+        e.preventDefault();
+
+      });
+    });
+  </script>
+
+</body>
+
+</html>
